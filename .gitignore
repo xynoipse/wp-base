@@ -1,0 +1,4 @@
+/public/app/*.log
+/public/core
+/vendor
+.env

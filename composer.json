@@ -1,0 +1,28 @@
+{
+    "name": "xynoipse/wp-base",
+    "type": "project",
+    "description": "Composer-ified WordPress base project",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "johnpbloch/wordpress": "5.5.3",
+        "vlucas/phpdotenv": "^5.2",
+        "wpackagist-plugin/classic-editor": "^1.6",
+        "wpackagist-plugin/tinymce-advanced": "^5.5",
+        "wpackagist-plugin/easy-wp-smtp": "^1.4",
+        "wpackagist-plugin/simple-custom-post-order": "^2.5"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/core",
+        "installer-paths": {
+            "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public/app/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
