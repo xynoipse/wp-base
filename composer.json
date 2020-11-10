@@ -24,5 +24,10 @@
             "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
             "public/app/themes/{$name}/": ["type:wordpress-theme"]
         }
+    },
+    "autoload": {
+        "files": [
+            "helpers/helpers.php"
+        ]
     }
 }
