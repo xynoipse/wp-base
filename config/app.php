@@ -4,7 +4,7 @@
 define('WP_CONTENT_DIR', dirname(__DIR__, 1) . '/public/app');
 
 /** Wordpress Content URL */
-define('WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/app');
+define('WP_CONTENT_URL', ($_ENV['APP_URL'] ?: "https://{$_SERVER['HTTP_HOST']}") . '/app');
 
 /**
  * Authentication Unique Keys and Salts.
