@@ -10,13 +10,15 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.1",
         "johnpbloch/wordpress": "5.5.3",
         "vlucas/phpdotenv": "^5.2",
         "wpackagist-plugin/classic-editor": "^1.6",
         "wpackagist-plugin/tinymce-advanced": "^5.5",
         "wpackagist-plugin/easy-wp-smtp": "^1.4",
-        "wpackagist-plugin/simple-custom-post-order": "^2.5"
+        "wpackagist-plugin/simple-custom-post-order": "^2.5",
+        "wpackagist-plugin/duplicate-post": "^3.2",
+        "wpackagist-plugin/acf-to-rest-api": "^3.3"
     },
     "extra": {
         "wordpress-install-dir": "public/core",

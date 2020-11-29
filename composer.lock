@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3da5e6ce95a2db1b0cca77bcf87ffcc9",
+    "content-hash": "02be4695cee4a49089ccdcc634e36274",
     "packages": [
         {
             "name": "composer/installers",
@@ -753,6 +753,24 @@
             "time": "2020-09-14T15:57:31+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "3.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/3.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.6",
             "source": {
@@ -769,6 +787,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "3.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/3.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
             "name": "wpackagist-plugin/easy-wp-smtp",
@@ -832,7 +868,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2.5"
+        "php": "^7.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
