@@ -1,0 +1,10 @@
+# Compress folder using gzip
+
+tar -zvcf {name}.tar.gz path/to/dir
+e.g. tar -zvcf plugin.tar.gz resources/plugins/plugin
+
+# Add the composer post-autoload-dump script to unzip
+
+"post-autoload-dump": [
+  "cat resources/{folder}/*.tar.gz | tar zxf - -i -C destination/path"
+]
